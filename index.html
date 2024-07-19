@@ -1,119 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Navigation and Links</title>
-        <!-- TO DO: ADD YOUR NAME TO THE AUTHOR TAG HERE -->
-        <meta name="author" content="">
-        <meta name="description" content="Learn about the different types of anchor tags, or links, that you can use when building a page for the web. Make it possible to navigate between pages, send an email, call a number, and more with anchor tags!">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <header>
-            <h1>Navigation and Links</h1>
+  <head>
+    <meta charset="utf-8" />
+    <title>Navigation and Links</title>
+    <meta name="author" content="Christian Ventura" />
+    <meta
+      name="description"
+      content="Learn about the different types of anchor tags, or links, that you can use when building a page for the web. Make it possible to navigate between pages, send an email, call a number, and more with anchor tags!"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Navigation and Links</h1>
 
-            <!-- TO DO: CREATE THE NAVIGATION FOR THE SITE HERE -->
-            Home
-            About
-            Contact
-        </header>
-            
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <main>
-            <p>This is your home page, also known as the index.html page. On this page we will discuss how to code navigation and links with examples.</p>
+    <main>
+      <p>
+        This is your home page, also known as the index.html page. On this page
+        we will discuss how to code navigation and links with examples.
+      </p>
 
-            <section>
-                <h2>Link Best Practices</h2>
-                <p>As with all of the code on your page, how you write it can affect whether ot not your page is usable and accessible. There are some basic things to keep in mind with links.</p>
-                <ul>
-                    <li>The text inside of your link should tell the user what will happen when they click on it
-                        <ul>
-                            <li>Link text should <strong>never</strong> say something like "click here"</li>
-                            <li>Bad: <a href="#">Click here</a> to submit our form</li>
-                            <li>Good: You can <a href="#">contact us by submitting a message through our form</a></li>
-                        </ul>
-                    </li>
-                    <li>Test your links to make sure they work, from <strong>every page</strong></li>
-                    <li>Use the appropriate type of link when adding one to your page</li>
-                </ul>
-            </section>
+      <section>
+        <h2>Link Best Practices</h2>
+        <p>
+          As with all of the code on your page, how you write it can affect
+          whether ot not your page is usable and accessible. There are some
+          basic things to keep in mind with links.
+        </p>
+        <ul>
+          <li>
+            The text inside of your link should tell the user what will happen
+            when they click on it
+            <ul>
+              <li>
+                Link text should <strong>never</strong> say something like
+                "click here"
+              </li>
+              <li>Bad: <a href="#">Click here</a> to submit our form</li>
+              <li>
+                Good: You can
+                <a href="#"
+                  >contact us by submitting a message through our form</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li>
+            Test your links to make sure they work, from
+            <strong>every page</strong>
+          </li>
+          <li>Use the appropriate type of link when adding one to your page</li>
+        </ul>
+      </section>
 
-            <section>
-                <h2>About Navigation</h2>
-                <p>Navigation is coded using an unordered list because navigation is a list of web pages. As mentioned above, relative hyperlinks are used when coding navigation. When you view your navigation html in a browser, you will notice that by default it is vertical and has bullets. This is because the navigation is created in an unordered list. The appearance of the navigation can be changed to be horizontal with styling, but for now we are interested in understanding how to code semantic navigation with links.</p>  
-            </section>
+      <section>
+        <h2>About Navigation</h2>
+        <p>
+          Navigation is coded using an unordered list because navigation is a
+          list of web pages. As mentioned above, relative hyperlinks are used
+          when coding navigation. When you view your navigation html in a
+          browser, you will notice that by default it is vertical and has
+          bullets. This is because the navigation is created in an unordered
+          list. The appearance of the navigation can be changed to be horizontal
+          with styling, but for now we are interested in understanding how to
+          code semantic navigation with links.
+        </p>
+      </section>
 
-            <section>
-                <h2>About Links</h2>
-                <p>You will be learning about and creating six types of hyperlinks:</p> 
+      <section>
+        <h2>About Links</h2>
+        <p>You will be learning about and creating six types of hyperlinks:</p>
 
-                <!-- TO DO: CREATE FRAGMENT LINKS HERE TO THESE TOPIC SECTIONS ON THE PAGE -->
-                <ul id="link-types">
-                    <li>absolute</li> <!-- link this to the absolute links section -->
-                    <li>relative</li> <!-- link this to the relative links section -->
-                    <li>fragment</li> <!-- link this to the fragment links section -->
-                    <li>email</li> <!-- link this to the email links section -->
-                    <li>telephone</li> <!-- link this to the telephone links section -->
-                    <li>relative with fragment</li> <!-- link this to the relative with fragment links section -->
-                </ul>
+        <ul id="link-types">
+          <li><a href="#abs">absolute</a></li>
+          <li><a href="#rel">relative</a></li>
+          <li><a href="#frag">fragment</a></li>
+          <li><a href="#email">email</a></li>
+          <li><a href="#tel">telephone</a></li>
+          <li><a href="#rel-frag">relative with fragment</a></li>
+        </ul>
 
-                <!-- TO DO: ADD AN ABSOLUTE LINK TO THE ASU WEBSITE FROM THE TEXT ASU.EDU BELOW, AND INCLUDE THE ATTRIBUTE THAT WILL MAKE THIS LINK OPEN IN A NEW TAB -->
-                <section id="abs">
-                    <h3>Absolute Hyperlinks</h3>
-                    <p>Absolute hyperlinks are used when links are needed to another website. You would use an absolute link if you wanted to code a link on your website to asu.edu.</p>
-                </section>
+        <!-- TO DO: ADD AN ABSOLUTE LINK TO THE ASU WEBSITE FROM THE TEXT ASU.EDU BELOW, AND INCLUDE THE ATTRIBUTE THAT WILL MAKE THIS LINK OPEN IN A NEW TAB -->
+        <section id="abs">
+          <h3>Absolute Hyperlinks</h3>
+          <p>
+            Absolute hyperlinks are used when links are needed to another
+            website. You would use an absolute link if you wanted to code a link
+            on your website to asu.edu.
+          </p>
+        </section>
 
-                <section id="rel">
-                    <h3>Relative Hyperlinks</h3>
-                    <p>Relative hyperlinks are used when links are needed to a page within your own website. When coding navigation, relative links are used because the links are to other pages within the same site.</p>
-                </section>
+        <section id="rel">
+          <h3>Relative Hyperlinks</h3>
+          <p>
+            Relative hyperlinks are used when links are needed to a page within
+            your own website. When coding navigation, relative links are used
+            because the links are to other pages within the same site.
+          </p>
+        </section>
 
-                <!-- TO DO: ADD AN EMAIL LINK TO THIS SECTION, USING YOUR ASU EMAIL AND REPLACING THE TEXT YOUREMAIL@ASU.EDU -->
-                <section id="email">
-                    <h3>E-Mail Hyperlinks</h3>
-                    <p>Email hyperlinks will automatically launch the user's default mail program. Unfortunately, sites that have coded email hyperlinks may have an issue with spam. The trend today is to use contact forms rather than email addresses, or include the address in the website as content rather than an email link. However, for practice, code your name linking to your ASU email address here: youremail@asu.edu</p>
-                </section>
+        <!-- TO DO: ADD AN EMAIL LINK TO THIS SECTION, USING YOUR ASU EMAIL AND REPLACING THE TEXT YOUREMAIL@ASU.EDU -->
+        <section id="email">
+          <h3>E-Mail Hyperlinks</h3>
+          <p>
+            Email hyperlinks will automatically launch the user's default mail
+            program. Unfortunately, sites that have coded email hyperlinks may
+            have an issue with spam. The trend today is to use contact forms
+            rather than email addresses, or include the address in the website
+            as content rather than an email link. However, for practice, code
+            your name linking to your ASU email address here: youremail@asu.edu
+          </p>
+        </section>
 
-                <section id="tel">
-                    <h3>Telephone Number Hyperlinks</h3>
-                    <p>Telephone number hyperlink functionality depends on the device. If you click on this type of link from a smartphone, it will open the phone application and dial the call. If you are on a different type of device, whether or not the link will work properly depends on the software installed and device functionality. Often this type of link is only displayed on mobile screens, but you will add one in the footer below for practice.</p>
-                </section>
+        <section id="tel">
+          <h3>Telephone Number Hyperlinks</h3>
+          <p>
+            Telephone number hyperlink functionality depends on the device. If
+            you click on this type of link from a smartphone, it will open the
+            phone application and dial the call. If you are on a different type
+            of device, whether or not the link will work properly depends on the
+            software installed and device functionality. Often this type of link
+            is only displayed on mobile screens, but you will add one in the
+            footer below for practice.
+          </p>
+        </section>
 
-                <section id="frag">
-                    <h3>Fragment Hyperlinks</h3>
-                    <p>Fragment hyperlinks are used when links are needed to jump to or from a specific area of the same web page. An example might be when a site is very long and a "back to top" button is needed, or on a single-page website where the navigation links to different sections of the page below.</p>
-                </section>
+        <section id="frag">
+          <h3>Fragment Hyperlinks</h3>
+          <p>
+            Fragment hyperlinks are used when links are needed to jump to or
+            from a specific area of the same web page. An example might be when
+            a site is very long and a "back to top" button is needed, or on a
+            single-page website where the navigation links to different sections
+            of the page below.
+          </p>
+        </section>
 
-                <section id="rel-frag">
-                    <h3>Combining Relative and Fragment Hyperlinks</h3>
-                    <p>Yes, you can use a fragment link to jump to a specific part of a page, and you can use a relative link to navigate to another page on your site, but you can also combine them! Linking the user to a specific page and section on that page can make it easier for them to find the information they need. We will add one of these in the footer of our pages.</p>
-                </section>
+        <section id="rel-frag">
+          <h3>Combining Relative and Fragment Hyperlinks</h3>
+          <p>
+            Yes, you can use a fragment link to jump to a specific part of a
+            page, and you can use a relative link to navigate to another page on
+            your site, but you can also combine them! Linking the user to a
+            specific page and section on that page can make it easier for them
+            to find the information they need. We will add one of these in the
+            footer of our pages.
+          </p>
+        </section>
+      </section>
 
-            </section>
+      <section id="btt">
+        <h2>Using a Link Fragment to Return to Top of Page</h2>
+        <p>
+          While this site is not long enough to really require a back to top
+          button, one has been created at the bottom of this page for your
+          coding practice.
+        </p>
 
-            <section id="btt">
-                <h2>Using a Link Fragment to Return to Top of Page</h2>
-                <p>While this site is not long enough to really require a back to top button, one has been created at the bottom of this page for your coding practice.</p>
+        <!-- TO DO: CREATE A BACK TO TOP LINK HERE -->
+        Back to Top <span>&#8679;</span>
+      </section>
+    </main>
 
-                <!-- TO DO: CREATE A BACK TO TOP LINK HERE -->
-                Back to Top <span>&#8679;</span>
-            </section>
+    <footer>
+      <section>
+        <h2>Call or Email Us</h2>
 
-        </main>
-
-        <footer>
-            <section>
-                <h2>Call or Email Us</h2>
-
-                <!-- TO DO: MAKE THE PHONE NUMBER AND EMAIL ADDRESS BELOW INTO PROPERLY FORMATTED LINKS INSIDE OF THE ADDRESS TAG -->
-                <address>
-                    (555) 555-5555
-                    Email Jessica Barnett
-                </address>
-                <!-- TO DO: COMPLETE THE LINK BELOW SO THAT IT WILL TAKE THE USER TO THE CONTACT SECTION ON THE CONTACT PAGE WHEN CLICKED -->
-                <p>You can also <a href="#">contact us by filling out the contact form on our site</a>.</p>
-            </section>
-            <p>Copyright &copy; 2023 - GIT215 - Prof. Barnett</p>
-        </footer>
-    </body>
+        <!-- TO DO: MAKE THE PHONE NUMBER AND EMAIL ADDRESS BELOW INTO PROPERLY FORMATTED LINKS INSIDE OF THE ADDRESS TAG -->
+        <address>(555) 555-5555 Email Jessica Barnett</address>
+        <!-- TO DO: COMPLETE THE LINK BELOW SO THAT IT WILL TAKE THE USER TO THE CONTACT SECTION ON THE CONTACT PAGE WHEN CLICKED -->
+        <p>
+          You can also
+          <a href="#">contact us by filling out the contact form on our site</a
+          >.
+        </p>
+      </section>
+      <p>Copyright &copy; 2023 - GIT215 - Prof. Barnett</p>
+    </footer>
+  </body>
 </html>
